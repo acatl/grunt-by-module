@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "description": "run grunt by modules",
   "author": "acatl.pacheco@gmail.com",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
   },
+  "keywords": [
+    "grunt",
+    "module",
+    "tasks"
+  ],
   "dependencies": {
     "lodash": "^2.4.1",
     "fs-walk": "0.0.1",

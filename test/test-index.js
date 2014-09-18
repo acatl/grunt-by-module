@@ -130,10 +130,10 @@ describe('index', function() {
         });
 
         after(function() {
-            grunt.task.renameTask('copy', 'copy#config');
-            grunt.task.renameTask('concat', 'concat#config');
-            grunt.task.renameTask('foo1', 'foo1#config');
-            grunt.task.renameTask('foo2', 'foo2#config');
+            grunt.task.renameTask('copy', 'copy#index.config');
+            grunt.task.renameTask('concat', 'concat#index.config');
+            grunt.task.renameTask('foo1', 'foo1#index.config');
+            grunt.task.renameTask('foo2', 'foo2#index.config');
         });
 
         it('should register local tasks', function() {

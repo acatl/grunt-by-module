@@ -1,3 +1,3 @@
 'use strict';
 
-exports.config = require('lib').config;
+exports.config = require('./lib').config;
