@@ -1,5 +1,9 @@
 # Grunt By Module: break down your grunt tasks into modules
 
+### working example:
+
+[https://github.com/acatl/grunt-by-module-example](https://github.com/acatl/grunt-by-module-example)
+
 ### Why a grunt wrapper?
 
 Grunt files can get huge, out of proportions on big projects, this tool should let you break your `Gruntfil.js` into smaller modules. 
