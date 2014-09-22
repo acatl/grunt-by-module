@@ -6,7 +6,7 @@
 
 ### Why a grunt wrapper?
 
-Grunt files can get huge, out of proportions on big projects, this tool should let you break your `Gruntfil.js` into smaller modules. 
+Grunt files can get huge, out of proportions on big projects, this tool should let you break your `Gruntfile.js` into smaller modules. 
 
 ### Why not just use Gulp?
 
