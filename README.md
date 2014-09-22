@@ -19,7 +19,8 @@ So why use this? well, if you like grunt, and you already have your project usin
 
 Two main benefits: 
 
-* **Plugin configuration** is placed on a per file(module) basis, where you describe whats the name of the plugin, and its default options that you want. 
+* **Plugin configuration**  is placed on a per file(module) basis, 
+where you describe the name of the plugin, and its default options that you want. 
 * **Tasks** may be broken down into separate files (modules), so you can have on each one only the tasks that correspond to certain task you want to do.
 
 ### Uh?
