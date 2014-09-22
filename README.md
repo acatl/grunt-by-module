@@ -10,9 +10,10 @@ Grunt files can get huge, out of proportions on big projects, this tool should l
 
 ### Why not just use Gulp?
 
-Door is wide open, I like [Gulp](http://gulpjs.com/) and I think depending on what you want maybe *Gulp* is what you need. 
+The Door is wide open, I like Gulp and I think depending on what you may want maybe Gulp is right for you.
 
-So why use this? well, if you like grunt, and you already got your project using it, this wrapper (because thats all what it really is) should help you get your tasks more organized and easier to maintain.
+So why use this? well, if you like grunt, and you already have your project using it, this wrapper 
+(because thats all it is really) should help to make your tasks more organized and easier to maintain.
 
 ### Which benefits do I get from a common Gruntfile.js file?
 
