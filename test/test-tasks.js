@@ -47,34 +47,8 @@ describe('Tasks', function() {
         });
 
         it('should have valid plugin objects', function() {
-            TestData.tasks[0].should.be.eql({
-                tasks: {
-                    copy: {
-                        foo1: {
-                            expand: true,
-                            cwd: 'test/assets/',
-                            src: '**',
-                            dest: 'temp/',
-                            flatten: true,
-                            filter: 'isFile'
-                        }
-                    },
-                    concat: {
-                        foo1: {
-                            src: ['src/intro.js', 'src/project.js', 'src/outro.js'],
-                            dest: 'dist/built.js'
-                        }
-                    }
-                },
-                register: {
-                    foo1: ['copy:foo1', 'concat:foo1']
-                },
-                resource: {
-                    basedir: '/Users/acatl/workspace/personal/grunt-by-module/test/assets/tasks',
-                    filename: 'move-files.js',
-                    basename: 'move-files'
-                }
-            });
+            var task = TestData.tasks[0];
+            task.should.have.keys('tasks', 'register', 'resource');
         });
     });
 
