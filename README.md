@@ -1,6 +1,8 @@
-# Grunt By Module: break down your grunt tasks into modules
+# Grunt By Module [![Build Status](https://travis-ci.org/acatl/grunt-by-module.svg?branch=master)](https://travis-ci.org/acatl/grunt-by-module)
 
-### working example:
+> Break down your grunt tasks into modules
+
+### Working example:
 
 [https://github.com/acatl/grunt-by-module-example](https://github.com/acatl/grunt-by-module-example)
 
