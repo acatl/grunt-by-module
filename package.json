@@ -1,6 +1,6 @@
 {
   "name": "grunt-by-module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "run grunt by modules",
   "author": "acatl.pacheco@gmail.com",
   "license": "MIT",
