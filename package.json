@@ -4,6 +4,10 @@
   "description": "run grunt by modules",
   "author": "acatl.pacheco@gmail.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/acatl/grunt-by-module.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
